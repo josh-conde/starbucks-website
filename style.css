@@ -102,9 +102,29 @@ section a {
 .box {
     margin-bottom: 30px; 
 }
+
 .box-inner {
     max-width: 700px;
     margin: 0 auto; 
+}
+
+.box-text {
+    max-width: 500px; 
+    text-align: center; 
+}
+
+/* Grid Styles */
+.grid-col-2 {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.grid-reversed :first-child {
+    order: 2; 
+
 }
 
 /* Buttons */
